@@ -11,7 +11,6 @@ function Footer() {
         <Image src="/2.png" width={35} height={35} alt="instagram icon" className={styles.icon} />
         <Image src="/3.png" width={35} height={35} alt="tweeter icon" className={styles.icon} />
         <Image src="/4.png" width={35} height={35} alt="youtube icon" className={styles.icon} /> 
-        {/* comment */}
       </div>
     </div>
   )
