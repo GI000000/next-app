@@ -36,11 +36,8 @@ function Navbar() {
     }
   ];
   return (
-    <div className={styles.links}>
-      <div>Main</div>
-      <div className={styles.links}>
-        {links.map(link => (<Link href={link.url}>{link.title}</Link>))}
-      </div>
+    <div className={styles.linkWrap}>
+      {links.map(link => (<Link href={link.url} className={styles.links}>{link.title}</Link>))}
     </div>
   )
 }

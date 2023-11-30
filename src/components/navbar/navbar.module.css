@@ -1,9 +1,12 @@
-.links {
-    opacity: 0.5;
+.linkWrap {
     display: flex;
     gap: 20px;
     justify-content: space-between;
     align-items: center;
-    background-color: aquamarine;
-
+}
+.links {
+    font-size: 2rem;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
 }
