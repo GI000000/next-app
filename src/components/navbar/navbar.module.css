@@ -1,12 +1,30 @@
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .linkWrap {
     display: flex;
     gap: 20px;
     justify-content: space-between;
     align-items: center;
 }
+.logo {
+    font-size: 1.5rem;
+    color: blueviolet;
+    font-weight: bold;
+    text-decoration: none;
+}
 .links {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #000;
     text-decoration: none;
-    font-weight: bold;
+}
+.logOut {
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #53c28d;
+    color: #fff;
+    cursor: pointer;
 }

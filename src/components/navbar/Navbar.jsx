@@ -36,8 +36,12 @@ function Navbar() {
     }
   ];
   return (
-    <div className={styles.linkWrap}>
-      {links.map(link => (<Link href={link.url} className={styles.links}>{link.title}</Link>))}
+    <div className={styles.wrap}>
+      <Link href='/' className={styles.logo}>Lamamia</Link>
+      <div className={styles.linkWrap}>
+        {links.map(link => (<Link href={link.url} className={styles.links}>{link.title}</Link>))}
+      <button className={styles.logOut}>Log Out</button>
+      </div>
     </div>
   )
 }

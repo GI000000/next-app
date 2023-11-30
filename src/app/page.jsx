@@ -1,9 +1,19 @@
 import styles from './page.module.css'
+import Image from 'next/image'
+import Hero from 'public/hero.png'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <h1 className={styles.wowHeader}>o</h1>
+    <main className={styles.container}>
+      <div>
+        <h1>Better design for your digital products.</h1>
+        <p>Turning your Idea into Reality. We bring together the teams from the
+          global tech industry</p>
+        <button>See Out Works</button>
+      </div>
+      <div>
+        <Image src={Hero} width={500} height={500} alt="hero" className={styles.hero}/>
+      </div>
     </main>
   )
 }
